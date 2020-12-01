@@ -10,5 +10,5 @@ Então adicionamos os comandos por voz assim basta pressionar o botão de microf
 <h2> Telas </h2>
 
 
-![]( https://github.com/Silva-Tech-Souza/Android-app-Calculadora-por-voz/blob/main/WhatsApp%20Image%202020-12-01%20at%2019.51.50.jpeg)
-![]( https://github.com/Silva-Tech-Souza/Android-app-Calculadora-por-voz/blob/main/WhatsApp%20Image%202020-12-01%20at%2019.51.50%20(1).jpeg)
+![]( https://github.com/Silva-Tech-Souza/Android-app-Calculadora-por-voz/blob/main/WhatsApp%20Image%202020-12-01%20at%2019.51.50%20(4).png)
+![]( https://github.com/Silva-Tech-Souza/Android-app-Calculadora-por-voz/blob/main/WhatsApp%20Image%202020-12-01%20at%2019.51.50%20(5).png)
