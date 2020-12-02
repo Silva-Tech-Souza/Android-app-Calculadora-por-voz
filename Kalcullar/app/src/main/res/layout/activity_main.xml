@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#474646"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/visor1"
+                style="@style/visor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|end|right" />
+
+            <TextView
+                android:id="@+id/visorPrincipa1"
+                style="@style/visorPrincipal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|end|right" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.14"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/botaoDestaque"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:gravity="center"
+            android:onClick="handleButtonLimpar"
+            android:text="C" />
+
+        <ImageButton
+            style="@style/botaoDestaque"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:adjustViewBounds="true"
+            android:onClick="handleButtonDesfazer"
+            android:padding="24dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_baseline_backspace_24" />
+
+        <Button
+            style="@style/botaoDestaque"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:onClick="handleButtonPorcentagem"
+            android:text="%"
+            android:textSize="30sp" />
+        <Button
+            style="@style/botaoDestaque"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:onClick="handleButtonSoma"
+            android:text="+"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.14"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/botao"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:onClick="handleButtonSete"
+            android:text="7" />
+
+        <Button
+            style="@style/botao"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:onClick="handleButtonOito"
+            android:text="8" />
+
+        <Button
+            style="@style/botao"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:onClick="handleButtonNove"
+            android:text="9" />
+
+        <Button
+            style="@style/botaoDestaque"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:onClick="handleButtonSubtrai"
+            android:text="-"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.14"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/botao"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:onClick="handleButtonQuatro"
+            android:text="4" />
+
+        <Button
+            style="@style/botao"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:onClick="handleButtonCinco"
+            android:text="5" />
+
+        <Button
+            style="@style/botao"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:onClick="handleButtonSeis"
+            android:text="6" />
+        <Button
+            style="@style/botaoDestaque"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:onClick="handleButtonMultiplica"
+            android:text="X" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.14"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/botao"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:onClick="handleButtonUm"
+            android:text="1" />
+
+        <Button
+            style="@style/botao"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:onClick="handleButtonDois"
+            android:text="2" />
+
+        <Button
+            style="@style/botao"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:onClick="handleButtonTres"
+            android:text="3" />
+        <Button
+            style="@style/botaoDestaque"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:onClick="handleButtonDivide"
+            android:text="÷"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.14"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/microfone1"
+            style="@style/botaoDestaque"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:adjustViewBounds="true"
+            android:onClick="handleButtonConfig"
+            android:padding="24dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_baseline_mic_off_24" />
+        <Button
+            style="@style/botao"
+            android:layout_width="@dimen/default_margin_duo"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:onClick="handleButtonZero"
+            android:text="0" />
+
+        <Button
+            style="@style/botaoDestaque"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:onClick="handleButtonVirgula"
+            android:text=","
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            style="@style/botaoDestaque"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:onClick="handleButtonResultado"
+            android:text="="
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

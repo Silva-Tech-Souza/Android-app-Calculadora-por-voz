@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="default_margin">1.5dp</dimen>
+    <dimen name="default_margin_duo">3.5dp</dimen>
+</resources>
